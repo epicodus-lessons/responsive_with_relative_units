@@ -15,9 +15,7 @@ body {
 
 .header {
   background-color: lightPink;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .header h1 {
@@ -37,13 +35,6 @@ body {
   margin-bottom: 30px;
 }
 
-.content-grid {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .content-big {
   background-color: lightSkyBlue;
   transition: background-color .6s;
@@ -51,6 +42,7 @@ body {
 
 .content-small {
   background-color: lightSalmon;
-  width: 90%;
+  margin: 0 auto 20px;
   transition: background-color .6s;
+  width: 90%;
 }
